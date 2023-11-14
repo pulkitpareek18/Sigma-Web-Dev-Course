@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        :root{
+            --navColor: skyblue;
+            --textColor: rgb(196, 30, 150);
+            --borderColor: black;
+        }
+        nav{
+            background-color: var(--navColor);
+        }
+        li{
+            list-style: none;
+            display: inline-block;
+            padding: 7px;
+            color: var(--textColor);
+            border: 2px solid var(--borderColor);
+        }
+    </style>
+</head>
+<body>
+    <!-- Create a multicolor website which can change color using CSS Variables -->
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+</body>
+</html>
